@@ -1,0 +1,11 @@
+{
+  "name": "k6-api-scripts",
+  "version": "1.0.0",
+  "description": "This are K6 script examples",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ranjana Arya",
+  "license": "ISC"
+}
