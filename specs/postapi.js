@@ -4,8 +4,8 @@ import {check} from 'k6';
 
 export const options={
 
-    vus : 1,
-    duration : '30s',
+    vus : 1,      // Simulate multiple virtual users to check system performance
+    duration : '30s', // Test duration for which it should run
 }
 
 export default function(){

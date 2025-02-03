@@ -1,12 +1,14 @@
+// This test script tests shared execution among virtual users for a test duration of 30s,no of iteration is not fixed 
+// and depends on how fast a user executes one iteration 
+
 import http from 'k6/http';
 import {sleep} from 'k6';
 import exec from  'k6/execution';
 
 export const options={
-    executor : 'shared-iterations',
-    vus : 10,
-    iterations:200,
-    maxduration : '30s',
+    executor : 'shared-Execution',
+    vus : 10,              //Number of virtual users
+    duration : '30s',       //test duration
 }
 
 
